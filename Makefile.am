@@ -99,6 +99,7 @@ cpuminer_SOURCES = \
   algo/hodl/hodl-wolf.c \
   algo/hodl/sha512_avx.c \
   algo/hodl/sha512_avx2.c \
+  algo/jad8/jad8.c \
   algo/jh/sph_jh.c \
   algo/jh/jh-hash-4way.c \
   algo/jh/jha-gate.c \

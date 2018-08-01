@@ -509,6 +509,7 @@ enum algos {
         ALGO_HEAVY,
         ALGO_HMQ1725,
         ALGO_HODL,
+        ALGO_JAD8,
         ALGO_JHA,
         ALGO_KECCAK,
         ALGO_KECCAKC,
@@ -591,6 +592,7 @@ static const char* const algo_names[] = {
         "heavy",
         "hmq1725",
         "hodl",
+        "jad8",
         "jha",
         "keccak",
         "keccakc",
@@ -731,6 +733,7 @@ Options:\n\
                           heavy         Heavy\n\
                           hmq1725       Espers\n\
                           hodl          Hodlcoin\n\
+                          jad8          \n\
                           jha           jackppot (Jackpotcoin)\n\
                           keccak        Maxcoin\n\
                           keccakc       Creative Coin\n\
