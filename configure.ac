@@ -1,4 +1,4 @@
-AC_INIT([cpuminer-opt], [3.8.8.1])
+AC_INIT([cpuminer-jad8], [3.8.8.1])
 
 AC_PREREQ([2.59c])
 AC_CANONICAL_SYSTEM
@@ -110,7 +110,7 @@ if test "x$OS" = "xWindows_NT" ; then
    # MinGW
    AC_CHECK_LIB([pthread], [pthread_create], PTHREAD_LIBS="-lpthreadGC2",[])
 else
-   AC_CHECK_LIB([pthread], [pthread_create], PTHREAD_LIBS="-lpthread",[])
+   AC_CHECK_LIB([pthread], [pthread_create], PTHREAD_LIBS="-lpthreadGC2",[])
 fi
 
 LDFLAGS="$PTHREAD_LDFLAGS $LDFLAGS"
