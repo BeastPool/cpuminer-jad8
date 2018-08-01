@@ -70,6 +70,7 @@ Supported Algorithms
                           heavy         Heavy
                           hmq1725       Espers
                           hodl          Hodlcoin
+                          jad8          Jadepay
                           jha           Jackpotcoin
                           keccak        Maxcoin
                           keccakc       Creative coin
